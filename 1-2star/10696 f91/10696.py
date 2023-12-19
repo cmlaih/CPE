@@ -1,11 +1,12 @@
-# Output 
+def f(n):
+  if n >= 101:
+    return n - 10
+  else:
+    return 91
+  
 while True:
-	n = int(input())
-	
-	if not n:
-		break
-
-	if n <= 100:
-		print("f91({0}) = 91".format(n))
-	else:
-		print("f91({0}) = {1}".format(n, n-10))
+  n = int(input())
+  if not n:
+    break
+  
+  print('f91(%d) = %d' %(n, f(n)))
