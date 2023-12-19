@@ -1,7 +1,4 @@
-'''
-20180126	jlhung	v1.0
-'''
-
+## String
 c = 0
 while True:
 	try :
