@@ -2,7 +2,7 @@
 while True:
 	n = int(input())
 	
-	if n == 0:
+	if not n:
 		break
 
 	if n <= 100:
